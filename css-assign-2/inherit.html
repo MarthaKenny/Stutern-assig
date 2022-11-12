@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inheritance Css Assign</title>
+    <style>
+      .list {
+        background: purple;
+      }
+      .ordered-list {
+        background: red;
+      }
+      div ol li {
+        color: aqua;
+      }
+
+      .ordered-list #likes-1 {
+        background: blue;
+      }
+
+      .list .unordered-list #dislikes-1 {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list">
+      <ol class="ordered-list">
+        An ordered list of My likes
+        <li id="likes-1">God</li>
+        <li>Family</li>
+        <li>Friends</li>
+        <li>Honesty</li>
+        <li>Swimming</li>
+      </ol>
+      <ul class="unordered-list">
+        An unordered list of my dislikes
+        <li id="dislikes-1">Lies</li>
+        <li>Fraud</li>
+        <li>Noise</li>
+      </ul>
+    </div>
+  </body>
+</html>
